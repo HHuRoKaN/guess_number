@@ -12,10 +12,10 @@ def main():
         if guess < number:
             print('ваше число меньше того, что загадано')
         
-        if guess > number:
+        elif guess > number:
             print('Ваше число больше того, что загадано')
 
-        if guess == number:
+        elif guess == number:
             break
 
 main()
